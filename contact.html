@@ -1,11 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <meta name="description" content="Contact Karan Dahal">
+
+    <title>Karan Dahal | Contact</title>
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contact.css">
+
 </head>
+
+
 <body>
-    
+
+<header>
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">KD.</a>
+
+        <button class="menu-btn" onclick="toggleMenu()" aria-label="Open navigation">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="project.html">Projects</a>
+            </li>
+
+            <li>
+                <a href="skills.html">Skills</a>
+            </li>
+
+            <li>
+                <a href="blog.html">Blog</a>
+            </li>
+
+            <li>
+                <a href="contact.html" class="active">Contact</a>
+            </li>
+
+            <li>
+                <a href="sitereport.html">Site Report</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+
+    <!-- PAGE HEADER -->
+
+    <section class="page-title">
+
+        <p>GET IN TOUCH</p>
+
+        <h1>Contact Me</h1>
+
+        <span>
+            Feel free to send me a message.
+        </span>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section class="contact">
+
+
+        <div class="contact-details">
+
+            <p class="eyebrow">
+                LET'S CONNECT
+            </p>
+
+            <h2>
+                Get in touch with me.
+            </h2>
+
+            <p>
+                If you would like to contact me about my portfolio,
+                projects or Web Development learning experience,
+                you can send me a message using the form.
+            </p>
+
+
+            <div class="contact-line">
+
+                <strong>Name</strong>
+
+                <span>
+                    Karan Dahal
+                </span>
+
+            </div>
+
+
+            <div class="contact-line">
+
+                <strong>College</strong>
+
+                <span>
+                    NAMI College
+                </span>
+
+            </div>
+
+
+            <div class="contact-line">
+
+                <strong>Field</strong>
+
+                <span>
+                    Computer Science
+                </span>
+
+            </div>
+
+
+            <div class="contact-line">
+
+                <strong>Subject</strong>
+
+                <span>
+                    Web Development
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- FORM -->
+
+        <div class="form-box">
+
+            <h2>
+                Send a Message
+            </h2>
+
+
+            <form id="contactForm">
+
+
+                <label for="name">
+                    Your Name
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+
+                <label for="email">
+                    Your Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+
+                <label for="subject">
+                    Subject
+                </label>
+
+                <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Enter subject"
+                    required
+                >
+
+
+                <label for="message">
+                    Message
+                </label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="7"
+                    placeholder="Write your message..."
+                    required
+                ></textarea>
+
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+
+                <p id="formMessage" class="form-message"></p>
+
+            </form>
+
+        </div>
+
+
+    </section>
+
+
+</main>
+
+
+<footer>
+
+    <p>
+        © 2026 Karan Dahal | Computer Science Student
+    </p>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
 </body>
 </html>
