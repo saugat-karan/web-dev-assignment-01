@@ -1,0 +1,100 @@
+/* =========================================
+   SITE REPORT
+========================================= */
+
+.report {
+    max-width: 900px;
+    margin: 70px auto;
+    padding: 0 30px;
+}
+
+.report section {
+    background: white;
+    padding: 40px;
+    margin-bottom: 25px;
+    border: 1px solid #e1e4e9;
+    border-radius: 8px;
+}
+
+.report-number {
+    color: #263f73;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.report h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.report p {
+    color: #60656e;
+    margin-bottom: 15px;
+}
+
+
+/* =========================================
+   VALIDATION
+========================================= */
+
+.validation-placeholder {
+    min-height: 180px;
+    margin-top: 20px;
+    background: #eef0f5;
+    border: 2px dashed #aeb5c1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+
+.validation-placeholder strong {
+    color: #263f73;
+    margin-bottom: 8px;
+}
+
+.validation-placeholder span {
+    color: #777;
+    font-size: 14px;
+}
+
+
+/* =========================================
+   VIDEO
+========================================= */
+
+.video-placeholder {
+    min-height: 180px;
+    background: #eef0f5;
+    border: 2px dashed #aeb5c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    color: #777;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 700px) {
+    .report {
+        margin: 50px auto;
+        padding: 0 20px;
+    }
+
+    .report section {
+        padding: 28px 22px;
+    }
+
+    .report h2 {
+        font-size: 25px;
+    }
+}

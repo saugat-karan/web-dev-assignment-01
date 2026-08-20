@@ -1,11 +1,468 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <meta name="description" content="Karan Dahal portfolio site report">
+
+    <title>Karan Dahal | Site Report</title>
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sitereport.css">
+
+
+
 </head>
+
 <body>
-    
+
+<header>
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">KD.</a>
+
+        <button
+            class="menu-btn"
+            onclick="toggleMenu()"
+            aria-label="Open navigation">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="project.html">Projects</a>
+            </li>
+
+            <li>
+                <a href="skills.html">Skills</a>
+            </li>
+
+            <li>
+                <a href="blog.html">Blog</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+
+            <li>
+                <a href="sitereport.html" class="active">
+                    Site Report
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+    <!-- PAGE TITLE -->
+
+    <section class="page-title">
+
+        <p>WEB DEVELOPMENT COURSEWORK</p>
+
+        <h1>Site Report</h1>
+
+        <span>
+            My experience developing this student portfolio.
+        </span>
+
+    </section>
+
+
+    <article class="report">
+
+        <!-- FIX FOR "ARTICLE LACKS HEADING" VALIDATOR WARNING -->
+        <h2 class="sr-only">Site Report Content</h2>
+
+
+        <!-- INTRODUCTION -->
+
+        <section>
+
+            <p class="report-number">
+                01
+            </p>
+
+            <h2>
+                Introduction
+            </h2>
+
+            <p>
+                This portfolio website was created as part of my
+                learning experience in Web Development. I am a
+                Computer Science student at NAMI College, and this
+                project gave me an opportunity to apply the concepts
+                I have been learning in class.
+            </p>
+
+            <p>
+                The website contains six connected pages: Home,
+                Projects, Skills, Blog, Contact and Site Report. The
+                main purpose of the portfolio is to introduce myself,
+                present my coursework and demonstrate my understanding
+                of basic web development technologies.
+            </p>
+
+        </section>
+
+
+        <!-- HTML -->
+
+        <section>
+
+            <p class="report-number">
+                02
+            </p>
+
+            <h2>
+                Learning HTML
+            </h2>
+
+            <p>
+                HTML was used to create the basic structure of the
+                portfolio. During the development process, I worked
+                with headings, paragraphs, links, lists, tables, forms
+                and different semantic HTML elements.
+            </p>
+
+            <p>
+                Using semantic elements such as header, nav, main,
+                section, article and footer helped me understand how
+                webpages can be organised logically. I also learned
+                how links can connect different HTML pages together.
+            </p>
+
+        </section>
+
+
+        <!-- CSS -->
+
+        <section>
+
+            <p class="report-number">
+                03
+            </p>
+
+            <h2>
+                Learning CSS
+            </h2>
+
+            <p>
+                CSS was used to style the portfolio and create its
+                overall visual appearance. I worked with typography,
+                spacing, borders, backgrounds, buttons, cards and
+                different layouts.
+            </p>
+
+            <p>
+                I used Flexbox and CSS Grid to arrange different
+                sections. The Projects page uses a different grid
+                structure so that the projects do not all appear in
+                exactly the same layout.
+            </p>
+
+        </section>
+
+
+        <!-- DESIGN -->
+
+        <section>
+
+            <p class="report-number">
+                04
+            </p>
+
+            <h2>
+                Design Decisions
+            </h2>
+
+            <p>
+                I chose a simple and clean design because the main
+                purpose of this website is to present my student work
+                clearly. A dark blue colour is used as the main accent
+                colour with white and light grey backgrounds.
+            </p>
+
+            <p>
+                I used a simple sans-serif font because it is easy to
+                read. Cards are used to organise information on the
+                Home page, while the Projects page uses a grid to
+                display different projects.
+            </p>
+
+            <p>
+                I also kept the navigation consistent across all six
+                pages so that users can easily move from one section
+                of the portfolio to another.
+            </p>
+
+        </section>
+
+
+        <!-- RESPONSIVE -->
+
+        <section>
+
+            <p class="report-number">
+                05
+            </p>
+
+            <h2>
+                Responsive Design
+            </h2>
+
+            <p>
+                Responsive design was an important part of the
+                development process. Websites need to work on
+                different screen sizes, including desktop, tablet
+                and mobile devices.
+            </p>
+
+            <p>
+                I used CSS media queries to change the layout when the
+                screen becomes smaller. The navigation changes into a
+                mobile menu, project cards become single-column
+                layouts and other sections adjust their spacing.
+            </p>
+
+        </section>
+
+
+        <!-- JAVASCRIPT -->
+
+        <section>
+
+            <p class="report-number">
+                06
+            </p>
+
+            <h2>
+                JavaScript
+            </h2>
+
+            <p>
+                JavaScript was used to add basic interaction to the
+                website. The mobile navigation menu uses JavaScript to
+                open and close the navigation links.
+            </p>
+
+            <p>
+                JavaScript is also used on the contact form to check
+                that required fields have been completed before the
+                email action is started.
+            </p>
+
+        </section>
+
+
+        <!-- CHALLENGES -->
+
+        <section>
+
+            <p class="report-number">
+                07
+            </p>
+
+            <h2>
+                Challenges I Faced
+            </h2>
+
+            <p>
+                One of the challenges I faced while developing the
+                portfolio was maintaining a consistent design across
+                all six pages. Since the pages contain different types
+                of information, I had to make sure they still looked
+                like parts of the same website.
+            </p>
+
+            <p>
+                Responsive design was another challenge. Some layouts
+                that looked good on a large screen became crowded on
+                a smaller screen. I solved this by using CSS media
+                queries and testing the website at different screen
+                sizes.
+            </p>
+
+            <p>
+                Debugging was also part of the learning process. When
+                something did not work, I checked the HTML structure,
+                CSS rules and JavaScript code to find the problem.
+            </p>
+
+        </section>
+
+
+        <!-- LEARNING -->
+
+        <section>
+
+            <p class="report-number">
+                08
+            </p>
+
+            <h2>
+                What I Learned
+            </h2>
+
+            <p>
+                This project helped me understand that creating a
+                website involves more than writing individual pieces
+                of HTML or CSS. All the pages need to work together,
+                and the navigation, layout and styling need to remain
+                consistent.
+            </p>
+
+            <p>
+                I also learned that practical work is important when
+                studying Web Development. Reading about HTML, CSS and
+                JavaScript is useful, but creating a real website
+                makes it easier to understand how the different
+                technologies work together.
+            </p>
+
+        </section>
+
+
+        <!-- REFLECTION -->
+
+        <section>
+
+            <p class="report-number">
+                09
+            </p>
+
+            <h2>
+                Reflection
+            </h2>
+
+            <p>
+                As a Computer Science student, this project has given
+                me useful practical experience with web technologies.
+                I am still learning and developing my skills, so there
+                are many areas I would like to improve.
+            </p>
+
+            <p>
+                In the future, I would like to improve the visual
+                design, learn more advanced JavaScript, add better
+                form functionality and create more complex projects.
+                I would also like to learn additional technologies
+                that can be used to build modern websites and
+                applications.
+            </p>
+
+        </section>
+
+
+        <!-- VALIDATION -->
+
+        <section class="validation-section">
+
+            <p class="report-number">
+                10
+            </p>
+
+            <h2>
+                Validation Evidence
+            </h2>
+
+            <p>
+                After completing the website, I will validate the HTML
+                and CSS using appropriate validation tools. Screenshots
+                of the validation results can be included below as
+                evidence.
+            </p>
+
+
+            <div class="validation-placeholder">
+
+                <strong>
+                    HTML VALIDATION SCREENSHOT
+                </strong>
+
+                <span>
+                    <img src="/public/valid-html.png" alt="valid html ss">
+                </span>
+
+            </div>
+
+
+            <div class="validation-placeholder">
+
+                <strong>
+                    CSS VALIDATION SCREENSHOT
+                </strong>
+
+                <span>
+                    <img src="/public/valid-css.png" alt="valid css ss">
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- VIDEO -->
+
+        <section class="video-section">
+
+            <p class="report-number">
+                11
+            </p>
+
+            <h2>
+                Video Demonstration
+            </h2>
+
+            <p>
+                A short video demonstration can be added here to
+                explain the website, show the different pages and
+                discuss the design and development process.
+            </p>
+
+
+            <div class="video-placeholder">
+
+                <span>
+                    YouTube video will be added here.
+                </span>
+
+            </div>
+
+        </section>
+
+
+    </article>
+
+</main>
+
+
+<footer>
+
+    <p>
+        © 2026 Karan Dahal | Computer Science Student
+    </p>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
 </body>
+
 </html>
