@@ -1,0 +1,122 @@
+/* =========================================
+   SKILLS
+========================================= */
+
+.skill-list {
+    max-width: 850px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.skill-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.skill-top strong {
+    color: #263f73;
+}
+
+.bar {
+    width: 100%;
+    height: 10px;
+    background: #e3e6ec;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 100%;
+    background: #263f73;
+    border-radius: 20px;
+}
+
+.bar-fill.html {
+    width: 75%;
+}
+
+.bar-fill.css {
+    width: 70%;
+}
+
+.bar-fill.javascript {
+    width: 55%;
+}
+
+.bar-fill.python {
+    width: 60%;
+}
+
+.bar-fill.database {
+    width: 45%;
+}
+
+
+/* =========================================
+   TABLE
+========================================= */
+
+.grey-section {
+    max-width: none;
+    background: #eef0f5;
+    padding-left: max(30px, calc((100% - 1140px) / 2));
+    padding-right: max(30px, calc((100% - 1140px) / 2));
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    min-width: 650px;
+}
+
+th,
+td {
+    padding: 17px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #263f73;
+    color: white;
+    font-size: 14px;
+}
+
+td {
+    color: #555;
+    font-size: 14px;
+}
+
+tr:hover td {
+    background: #f4f6fa;
+}
+
+
+/* =========================================
+   SOFT SKILLS LIST
+========================================= */
+
+.soft-skills {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.soft-skills li {
+    background: white;
+    border: 1px solid #e0e3e8;
+    padding: 18px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #263f73;
+    text-align: center;
+}
